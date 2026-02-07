@@ -1,0 +1,49 @@
+Bike-Share Operations & Growth Analysis (BigQuery SQL Project)
+
+Project Overview
+This project analyzes a bike-sharing dataset using SQL in Google BigQuery to understand ride behavior, station performance, and user growth trends.
+The analysis is designed from an operations and strategy perspective, focusing on insights that can support capacity planning, service optimization, and growth monitoring.
+
+
+Objective of the Analysis
+
+The objective of this analysis is to provide data-driven insights that help a bike-share operator:
+	•	Identify peak usage periods to support operational planning
+	•	Understand customer behavior across membership types
+	•	Detect high-demand and imbalanced stations for bike rebalancing
+	•	Monitor service quality and data reliability
+	•	Track user growth trends over time
+
+The analysis is fully implemented in SQL and structured to reflect a real-world analytical workflow.
+
+
+Dataset Description
+
+The project uses three core tables:
+	•	Rides – Trip-level data including start/end stations, timestamps, distance, and duration
+	•	Stations – Station identifiers and station names
+	•	Users – User profiles including membership level and signup date
+
+
+Key Business Questions
+	1.	How large is the system in terms of rides, users, and stations?
+	2.	Are there data quality issues that could affect decision-making?
+	3.	What does a typical ride look like in distance and duration?
+	4.	How do membership types differ in usage behavior?
+	5.	When are peak demand hours during the day?
+	6.	Which stations generate the highest ride activity?
+	7.	Are bikes flowing into or out of specific stations, indicating rebalancing needs?
+	8.	Is the user base growing month-over-month, and at what rate?
+
+
+
+
+
+
+
+
+
+
+
+
+
